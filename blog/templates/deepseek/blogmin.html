@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Gezi Blogu</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Özel CSS -->
+    <link rel="stylesheet" href="stylemin.css">
+    <!-- Font Awesome (İkonlar için) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Gezi Blogu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hakkımda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">İletişim</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Gezi Deneyimlerim</h1>
+            <p class="lead">Dünyayı keşfetmeye hoş geldiniz!</p>
+            <a href="#" class="btn btn-primary btn-lg">Blogumu Keşfet</a>
+        </div>
+    </header>
+
+    <!-- Blog Gönderileri -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Blog Gönderisi 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Blog 1">
+                        <div class="card-body">
+                            <h5 class="card-title">İstanbul'da Bir Hafta Sonu</h5>
+                            <p class="card-text">İstanbul'un tarihi sokaklarında unutulmaz bir hafta sonu geçirdim...</p>
+                            <a href="#" class="btn btn-primary">Devamını Oku</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Gönderisi 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Blog 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Kapadokya'da Balon Keyfi</h5>
+                            <p class="card-text">Kapadokya'nın eşsiz manzarasını balonla izlemek harikaydı...</p>
+                            <a href="#" class="btn btn-primary">Devamını Oku</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Gönderisi 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Blog 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Antalya'da Deniz ve Güneş</h5>
+                            <p class="card-text">Antalya'nın turkuaz sularında harika bir tatil geçirdim...</p>
+                            <a href="#" class="btn btn-primary">Devamını Oku</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeri -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Gezdiğim Yerlerden Kareler</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <img src="https://via.placeholder.com/400x300" alt="Galeri 1" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="https://via.placeholder.com/400x300" alt="Galeri 2" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="https://via.placeholder.com/400x300" alt="Galeri 3" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2023 Gezi Blogu. Tüm hakları saklıdır.</p>
+            <div class="social-links">
+                <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS ve Bağımlılıkları -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

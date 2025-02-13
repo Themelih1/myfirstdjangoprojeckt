@@ -1,0 +1,46 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{%block title%}{%endblock%}|Blogapp</title>
+    <link rel="stylesheet" href="{% static '/blog/css/style.css' %}">
+    <link rel="stylesheet" href="{% static '/blog/css/bootstrap.min.css' %}">
+</head>
+<h1 style="color: rgba(255, 0, 149, 0.66); writing-mode: unset;">HOSGELDINIZ</h1>
+
+<body>
+
+    {% include 'partials/_navbar.html' %}
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+    {% block content %}
+
+    {% endblock %}
+
+
+
+    <script src="{% static 'blog/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'blog/js/base.js' %}"></script>
+    {% block js_files %}
+
+    {% endblock %}
+
+</body>
+
+</html>
